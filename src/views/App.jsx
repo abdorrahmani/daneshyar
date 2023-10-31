@@ -3,6 +3,7 @@ import Home from './Home';
 import SingIn from "./auth/SignIn.jsx"
 import SingUp from "./auth/Singup.jsx";
 import {ContextProvider} from "./Contex/ContextProvider.jsx";
+import Test from "./Test.jsx";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
             <Route path="/login" element={<SingIn/>}/>
             <Route path="/register" element={<SingUp/>}/>
+           <Route path="/test" element={<Test/>} />
 
             {/*user client*/}
             {
